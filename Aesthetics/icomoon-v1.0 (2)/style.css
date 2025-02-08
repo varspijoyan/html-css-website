@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?xgxumc');
+  src:  url('fonts/icomoon.eot?xgxumc#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xgxumc') format('truetype'),
+    url('fonts/icomoon.woff?xgxumc') format('woff'),
+    url('fonts/icomoon.svg?xgxumc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-x:before {
+  content: "\e900";
+}
+.icon-news:before {
+  content: "\e904";
+}
+.icon-copy:before {
+  content: "\e905";
+}
+.icon-menu:before {
+  content: "\e902";
+}
+.icon-checkmark:before {
+  content: "\e906";
+}
+.icon-arrow-right:before {
+  content: "\e901";
+}
+.icon-arrow-left:before {
+  content: "\e903";
+}
+.icon-file-text:before {
+  content: "\e907";
+}
+.icon-camera:before {
+  content: "\e8d3";
+}
