@@ -767,10 +767,23 @@ footer .border-bottom {
     padding: 50px;
 }
 
+.close {
+    font-size: 50px;
+    display: none;
+    color: white;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 991px) {
     .icon-menu {
         display: block;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 20px;
     }
 
     header {
